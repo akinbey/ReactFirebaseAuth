@@ -128,7 +128,7 @@ const Auth = () => {
                         </svg>
                     </button>
                 </div>
-                <p style={{ cursor: 'pointer' }} onClick={() => { setSignUp(!signUp) }} className="signup">{signUp ? "Daha önceden kayıt oldunuz mu?" : "Kayıt olmak mı istiyorsunuz?"}
+                <p style={{ cursor: 'pointer' }} onClick={() => { setSignUp(!signUp) }} className="signup">{signUp ? "Already have an acount ?" : "Do you want to register?"}
 
 
                 </p>
